@@ -22,8 +22,6 @@ export const AppLink: FC<AppLinkProps> = (props) => {
         ...otherProps
     } = props;
 
-    console.log();
-
     return (
         <Link
             to={to}
