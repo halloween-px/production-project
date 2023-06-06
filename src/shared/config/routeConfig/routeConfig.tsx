@@ -12,7 +12,7 @@ export const RoutePath: Record<AppRoutes, string> = {
     [AppRoutes.ABOUT]: '/about',
 };
 
-export const routConfig:Record<AppRoutes, RouteObject> = {
+export const routConfig: Record<AppRoutes, RouteObject> = {
     [AppRoutes.MAIN]: {
         path: RoutePath.main,
         element: <MainPage />,
