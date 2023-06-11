@@ -1,18 +1,17 @@
 .Navbar {
-  width: 100%;
-  height: var(--header-height);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 24px;
-  background-color: var(--inverted-bg-color);
+    width: 100%;
+    height: var(--header-height);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px;
+    background-color: var(--inverted-bg-color);
 
-  .Links {
-
-    .Link {
-      &:first-child {
-        margin-right: 24px;
-      }
+    .Links {
+        .Link {
+            &:first-child {
+                margin-right: 24px;
+            }
+        }
     }
-  }
 }
